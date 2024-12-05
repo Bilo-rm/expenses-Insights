@@ -6,11 +6,11 @@ app = Flask(__name__)
 # Mock data for testing
 MOCK_EXPENSES = [
     {"expense": "Groceries", "amount": 50, "date": "2024-10-01", "category": "Food"},
-    {"expense": "Dining Out", "amount": 30, "date": "2024-11-02", "category": "Food"},
+    {"expense": "Dining Out", "amount": 30, "date": "2024-12-02", "category": "Food"},
     {"expense": "Gas", "amount": 40, "date": "2024-11-03", "category": "Transport"},
-    {"expense": "Electricity Bill", "amount": 100, "date": "2024-11-04", "category": "Utilities"},
-    {"expense": "Internet", "amount": 60, "date": "2024-11-04", "category": "Utilities"},
-    {"expense": "Movie Tickets", "amount": 20, "date": "2024-11-05", "category": "Entertainment"},
+    {"expense": "Electricity Bill", "amount": 100, "date": "2024-12-04", "category": "Utilities"},
+    {"expense": "Internet", "amount": 60, "date": "2024-12-04", "category": "Utilities"},
+    {"expense": "Movie Tickets", "amount": 20, "date": "2024-12-05", "category": "Entertainment"},
 ]
 
 # Helper Functions
